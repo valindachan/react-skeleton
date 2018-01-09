@@ -8,6 +8,10 @@ var List = React.createClass({
     var listItems = ingredients.map(function(item)) {
       return <ListItem key={item.id} ingredient={item.text} />;
     });
+
+    return (<ul>{listItems}</ul>);
   }
 
 })
+
+module.exports = List;
