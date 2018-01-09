@@ -1,6 +1,6 @@
 var React = require('react');
 var ListItem = React.createClass({
-  render: runction() {
+  render: function() {
     return (
       <li>
         <h4>{this.props.ingredient}</h4>
